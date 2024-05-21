@@ -6,6 +6,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Login from './components/Login';
 import User from './components/User';
 import Administrator from './components/Administrator';
+import Dashboard from './components/Dashboard';
 // import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 
 const Stack = createNativeStackNavigator();
@@ -18,6 +19,7 @@ const App =()=>{
       <Stack.Screen name='Login' component={Login}/>
       <Stack.Screen name='User' component={User}/>
       <Stack.Screen name='Administrator' component={Administrator}/>
+      <Stack.Screen name='Dashboard' component={Dashboard}/>
     </Stack.Navigator>
  </NavigationContainer>
   )
