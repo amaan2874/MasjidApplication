@@ -10,7 +10,7 @@ const IFM = ({navigation}) =>{
       <Text style={{color:'#019863',fontSize:18,textAlign:'center',marginTop:50,marginBottom:70,textShadowOffset:{width:1,height:1},textDecorationColor:'black',textShadowRadius:2}}>Innovation with Integrity,Roooted in Islam</Text>
 
       <Pressable>
-                <Text onPress={()=>navigation.navigate('Login')} style={styles.Pressable}>Start</Text>
+                <Text onPress={()=>navigation.navigate('Login')} style={styles.Pressable}>Star</Text>
             </Pressable>
 
       

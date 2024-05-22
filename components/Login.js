@@ -10,7 +10,7 @@ const Login =({navigation})=>{
             <Input placeholder="Username"keyboard="default"/>
             <Input placeholder="Password"keyboard="default" is_password={true}/>
 
-            <Text style={{color:'#019863',padding:15,paddingStart:220,fontSize:15}}>Forget Password ?</Text>
+            <Text onPress={()=>navigation.navigate('Forget')} style={{color:'#019863',padding:15,paddingStart:220,fontSize:15}}>Forget Password ?</Text>
 
             <Pressable>
                 <Text onPress={()=>navigation.navigate('Dashboard')} style={styles.Pressable}>Login</Text>
