@@ -23,7 +23,7 @@ const User = ({navigation}) => {
 <Pressable>
     <Text onPress={()=>navigation.navigate('Login')} style={styles.Pressable}>SingUp</Text>
 </Pressable>
-<Text style={{textAlign:'center',fontSize:15,marginTop:1}}>Already Have an account <Text onPress={()=>navigation.navigate('Login')} style={{color:'#019863'}}>Login</Text> here</Text>
+<Text style={{textAlign:'center',fontSize:15,marginTop:1}}>Already Have an account <Text onPress={()=>navigation.navigate('Login')} style={{color:'#019863'}}>Login</Text></Text>
     </ScrollView>
   )
 }
